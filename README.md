@@ -37,7 +37,7 @@ Full report: [`data_quality_report.md`](data_quality_report.md)
 - **24.5% of rows** have a posting date outside the month of the file they were published in, some back to November 2023. Files group payments by when they were reported, so all analysis uses posting date.
 - **7,549 payments (9.8%, £15.1m)** were redacted by the council as personal data.
 - Supplier names are **truncated at 35 characters** (288 names hit the limit, e.g. `LIVERPOOL STREETSCENE SERVICES LIMI`).
-- **2,532 distinct supplier names**, with many spelling variants (`MERSEYTRAVEL` / `MerseyTravel` / `Merseytravel`).
+- **2,532 distinct supplier names (2,529 once the council's redacted placeholders are removed)**, with many spelling variants (`MERSEYTRAVEL` / `MerseyTravel` / `Merseytravel`).
 
 ## Supplier cleaning: rules vs LLM
 
