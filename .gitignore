@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# database and intermediate files (contain raw supplier names, incl. some private individuals)
+council.duckdb
+data/raw/
+data/cache/
+data/processed/
+data/labels/
+
+# system / editor files
+.ipynb_checkpoints/
+.DS_Store

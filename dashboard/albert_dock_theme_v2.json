@@ -1,0 +1,508 @@
+{
+  "name": "Albert Dock v2",
+  "dataColors": [
+    "#B5432F",
+    "#2E7D7A",
+    "#D9A441",
+    "#3D4F5C",
+    "#8FA382",
+    "#C97B5A",
+    "#5B9AA8",
+    "#7E5A73",
+    "#A6896B",
+    "#4F6D4A",
+    "#E2B9A1",
+    "#6E7F8D",
+    "#9E3D3D",
+    "#C2B280",
+    "#2F5D73",
+    "#B8A6C9"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2A2420",
+  "tableAccent": "#B5432F",
+  "good": "#2E7D7A",
+  "neutral": "#D9A441",
+  "bad": "#B5432F",
+  "textClasses": {
+    "title": {
+      "fontFace": "Georgia",
+      "fontSize": 14,
+      "color": "#2A2420"
+    },
+    "header": {
+      "fontFace": "Georgia",
+      "fontSize": 12,
+      "color": "#2A2420"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#6B5F57"
+    },
+    "callout": {
+      "fontFace": "DIN",
+      "fontSize": 30,
+      "color": "#B5432F"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E6DCCF"
+              }
+            },
+            "radius": 10
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#5A3E2B"
+              }
+            },
+            "position": "Outer",
+            "preset": "Bottom",
+            "transparency": 82
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Georgia",
+            "fontSize": 13,
+            "fontColor": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F3ECE2"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E9DFD2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontFamily": "DIN",
+            "fontSize": 30,
+            "color": {
+              "solid": {
+                "color": "#B5432F"
+              }
+            },
+            "labelDisplayUnits": 1
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "color": {
+              "solid": {
+                "color": "#6B5F57"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#3D4F5C"
+              }
+            }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "backColorPrimary": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#FAF5EE"
+              }
+            }
+          }
+        ],
+        "total": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "backColor": {
+              "solid": {
+                "color": "#F3ECE2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontColor": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ],
+        "header": [
+          {
+            "fontFamily": "Georgia",
+            "fontColor": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ],
+        "data": [
+          {
+            "mode": "Dropdown"
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "shape": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "basicShape": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "image": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "actionButton": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1,
+            "color": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1,
+            "color": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1,
+            "color": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1,
+            "color": {
+              "solid": {
+                "color": "#2A2420"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1,
+            "start": 0
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "labelDisplayUnits": 1
+          }
+        ],
+        "markers": [
+          {
+            "show": true,
+            "markerSize": 5
+          }
+        ]
+      }
+    }
+  }
+}
