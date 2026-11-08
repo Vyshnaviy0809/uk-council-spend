@@ -11,7 +11,7 @@ I took six months of real, messy council spending data (Liverpool City Council, 
 - **Supplier records are fragmented:** 2,529 raw supplier names reduce to 2,332 suppliers once spelling variants are merged, so totals per supplier are understated if read from the raw data.
 - **Redaction may miss some individuals:** besides the 7,549 payments the council redacted, the LLM flagged 34 more supplier names that look like private individuals (not yet verified).
 - **The latest month is provisional:** 24.5% of payments appear in a later month's file than the one they were posted in, so June 2025 will rise once July's file is published.
-- **AI helps, but needs checking:** the LLM categorised 82% of suppliers correctly vs 56% for rules, and a "better" prompt traded accuracy for missed duplicates.
+- - **AI helps, but needs checking:** the LLM categorised 82% of suppliers correctly vs 56% for rules. A second prompt raised that to 85% and removed false merges, but missed more real duplicates (recall 100% → 65%).
 
 **Recommendations for the council:** standardise supplier names when suppliers are set up, check whether the redaction process catches all payments to individuals, and label the most recent month as provisional when publishing.
 
