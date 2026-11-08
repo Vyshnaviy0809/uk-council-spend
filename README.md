@@ -13,7 +13,7 @@ I took six months of real, messy council spending data (Liverpool City Council, 
 - **The latest month is provisional:** 24.5% of payments appear in a later month's file than the one they were posted in, so June 2025 will rise once July's file is published.
 - **AI helps, but needs checking:** the LLM categorised 82% of suppliers correctly vs 56% for rules, and a "better" prompt traded accuracy for missed duplicates.
 
-**Recommendations for the council:** standardise supplier names when suppliers are set up, check whether the redaction process misses individuals for payments to individuals, and label the most recent month as provisional when publishing.
+**Recommendations for the council:** standardise supplier names when suppliers are set up, check whether the redaction process catches all payments to individuals, and label the most recent month as provisional when publishing.
 
 ## Pipeline
 
