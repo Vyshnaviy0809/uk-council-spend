@@ -9,11 +9,11 @@ I took six months of real, messy council spending data (Liverpool City Council, 
 - **Where the money goes:** Social Care is the largest category (£99.0m, 23% of net spend), and Adult Services & Health the largest department (£153.6m).
 - **Spend is concentrated:** the 10 largest suppliers received 28.8% of all spend (£121.5m), and the top 20 received 39.6% (£166.8m).
 - **Supplier records are fragmented:** 2,529 raw supplier names reduce to 2,332 suppliers once spelling variants are merged, so totals per supplier are understated if read from the raw data.
-- **Redaction misses some individuals:** besides the 7,549 payments the council redacted, the LLM flagged 34 more supplier names that look like private individuals.
+- **Redaction may miss some individuals:** besides the 7,549 payments the council redacted, the LLM flagged 34 more supplier names that look like private individuals (not yet verified).
 - **The latest month is provisional:** 24.5% of payments appear in a later month's file than the one they were posted in, so June 2025 will rise once July's file is published.
 - **AI helps, but needs checking:** the LLM categorised 82% of suppliers correctly vs 56% for rules, and a "better" prompt traded accuracy for missed duplicates.
 
-**Recommendations for the council:** standardise supplier names when suppliers are set up, review the redaction process for payments to individuals, and label the most recent month as provisional when publishing.
+**Recommendations for the council:** standardise supplier names when suppliers are set up, check whether the redaction process misses individuals for payments to individuals, and label the most recent month as provisional when publishing.
 
 ## Pipeline
 
